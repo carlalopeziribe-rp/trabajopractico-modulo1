@@ -1,0 +1,133 @@
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    overflow-x: hidden;
+}
+
+.foto-portada {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    }
+
+h1.presentacion, h2.presentacion-servicios {
+
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 30px;
+    text-align: center;
+    color: #6f8f72;
+    text-shadow: 2px 2px 15px #b5cab7;
+}
+
+p.texto-presentacion {
+
+    font-size: large;
+    text-align: center;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    color: #545454;
+}
+
+
+
+h5.card-title {
+    font-weight: 600;
+    color: #545454;
+}
+
+p.card-text-servicios {
+    font-size: medium;
+    font-weight: 500;
+    color: #545454;
+}
+
+.btn-vermas {
+    background-color: #6f8f72;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid #6f8f72;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.servicios {
+    margin-bottom: 60px;
+}
+
+h5.ubicacion {
+    margin-bottom: 20px;
+    font-size: x-large;
+    color: #6f8f72;
+    font-weight: 600;
+}
+
+div.card.text-bg-dark {
+    border: none;
+
+
+}
+
+
+
+h1.card-title.text-start {
+    color: whitesmoke;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px #545454;
+
+}
+
+p.card-text-portada {
+    color: whitesmoke;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px #545454;
+    font-size: large;
+
+}
+
+@media (max-width:442px) {
+    h1.card-title.text-start {
+        font-size: medium;
+        font-weight: 600;
+
+    }
+
+    p.card-text-portada {
+        font-size: small;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+}
+
+h4.info-servicios {
+    margin: 30px 0;
+    text-align: center;
+    color: #6f8f72;
+    font-weight: 600;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+ul li::marker {
+    color: #6f8f72;
+}
+
+button.btn.btn-enviar {
+    background-color: #6f8f72;
+    color: whitesmoke;
+}
+
+.card-img-overlay{
+    background: rgba(0,0,0,0.15);
+    border-radius: 8px;
+}
+
+section{
+    margin-top: 40px;
+}
