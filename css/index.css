@@ -32,6 +32,8 @@ p.texto-presentacion {
     color: #545454;
 }
 
+
+
 h5.card-title {
     font-weight: 600;
     color: #545454;
@@ -63,6 +65,10 @@ p.card-text-servicios {
     margin-bottom: 60px;
 }
 
+.container-ubicacion {
+    margin-top: 60px;
+}
+
 h5.ubicacion {
     margin-bottom: 20px;
     font-size: x-large;
@@ -72,12 +78,17 @@ h5.ubicacion {
 
 div.card.text-bg-dark {
     border: none;
+
+
 }
+
+
 
 h1.card-title.text-start {
     color: whitesmoke;
     font-weight: 600;
     text-shadow: 1px 1px 5px #545454;
+
 }
 
 p.card-text-portada {
@@ -85,6 +96,7 @@ p.card-text-portada {
     font-weight: 400;
     text-shadow: 1px 1px 5px #545454;
     font-size: large;
+
 }
 
 @media (max-width:442px) {
@@ -127,11 +139,16 @@ button.btn.btn-enviar {
     border-radius: 8px;
 }
 
+section{
+    margin-top: 40px;
+}
+
 .carrusel-container {
     position: relative;
     max-width: 1000px;
     margin: 20px auto;
     overflow: hidden;
+    
 }
 
 .carrusel {
@@ -147,7 +164,7 @@ button.btn.btn-enviar {
     box-sizing: border-box;
 }
 
-.carrusel-item img {
+.carrusel-item img{
     width: 100%;
     height: 500px;
     object-fit: cover;
@@ -168,26 +185,11 @@ button.btn.btn-enviar {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: rgba(181, 202, 183, 0.8);
+    background-color:rgba(181, 202, 183, 0.8);
     cursor: pointer;
     transition: background .3s;
 }
 
-.indicator:active{
+.indicator:active {
     background-color: rgb(181, 202, 183);
-}
-
-section{
-    margin-top: 40px;
-}
-
-.presentacion-rutina {
-    font-size: 400;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    margin: 30px;
-    text-align: center;
-    color: #6f8f72;
-    text-shadow: 2px 2px 15px #b5cab7;
 }
