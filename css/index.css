@@ -131,3 +131,14 @@ button.btn.btn-enviar {
 section{
     margin-top: 40px;
 }
+
+.presentacion-rutina {
+    font-size: 400;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 30px;
+    text-align: center;
+    color: #6f8f72;
+    text-shadow: 2px 2px 15px #b5cab7;
+}
