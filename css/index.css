@@ -32,8 +32,6 @@ p.texto-presentacion {
     color: #545454;
 }
 
-
-
 h5.card-title {
     font-weight: 600;
     color: #545454;
@@ -81,8 +79,6 @@ div.card.text-bg-dark {
 
 
 }
-
-
 
 h1.card-title.text-start {
     color: whitesmoke;
@@ -192,4 +188,55 @@ section{
 
 .indicator:active {
     background-color: rgb(181, 202, 183);
+}
+
+.tipos-de-piel {
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 30px;
+    text-align: center;
+    color: #6f8f72;
+    text-shadow: 2px 2px 15px #b5cab7;
+}
+
+#rutina-titulo {
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: start;
+    color: #6f8f72;
+    text-shadow: 2px 2px 15px #b5cab7;
+}
+
+#task-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#task-list li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+#task-list li span {
+  flex: 1;
+}
+
+#task-form input {
+  border-radius: 8px;
+}
+
+#task-form button {
+  border-radius: 8px;
+}
+
+#reset-btn {
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #6f8f72;
+  color: white;
+  font-weight:normal; 
 }
